@@ -37,3 +37,14 @@ if (!function_exists('theme_setup')) :
     }
 endif; // theme_setup
 add_action('after_setup_theme', 'theme_setup');
+
+function add_theme_scripts()
+{
+    $the_theme = wp_get_theme();
+
+    wp_enqueue_style('custom_style', get_template_directory_uri() . '/assets/css/style.css', array(), $the_theme->get('Version'), 'all');
+
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), '1.0.1');
+}
+add_action('wp_enqueue_scripts', 'add_theme_scripts');
