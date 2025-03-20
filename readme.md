@@ -8,5 +8,5 @@
 
 ## Login Details
 
-Username: Dev
+Username: Dev\
 Password: #xUrANjUuAuE\*Y@jKC
