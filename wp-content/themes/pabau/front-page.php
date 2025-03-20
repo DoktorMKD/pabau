@@ -47,13 +47,14 @@ get_header();
         <p>Sign up for a free trial and see how CRM Pro can help your business grow.</p>
     </div>
     <div class="form">
-        <form action="">
-            <input type="text" id="first-name" name="Fname" placeholder="First Name" required>
-            <input type="text" id="last-name" name="Lname" placeholder="Last Name" required>
+        <form id="lead-form">
+            <input type="text" id="Fname" name="Fname" placeholder="First Name" required>
+            <input type="text" id="Lname" name="Lname" placeholder="Last Name" required>
+            <input type="email" id="email" name="email" placeholder="E-mail">
             <input type="text" id="mobile" name="mobile" placeholder="Phone Number">
-            <input type="text" id="country" name="country" placeholder="Country">
             <button type="submit" class="form-button">Request Free Trial</button>
         </form>
+        <p class="status"></p>
     </div>
 </section>
 
