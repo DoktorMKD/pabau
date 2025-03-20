@@ -35,8 +35,16 @@ get_header();
             <p>Get insights into your business performance with detailed reports.</p>
         </div>
         <div class="item">
-            <h3></h3>
-            <p></p>
+            <h3>Email Integration</h3>
+            <p>Sync with Gmail, Outlook, or other email providers for seamless communication.</p>
+        </div>
+        <div class="item">
+            <h3>Lead Tracking</h3>
+            <p>Track leads through the sales pipeline with real-time updates.</p>
+        </div>
+        <div class="item">
+            <h3>Document Management</h3>
+            <p>Store and organize important documents related to clients and deals.</p>
         </div>
     </div>
 </section>
