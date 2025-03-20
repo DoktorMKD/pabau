@@ -48,10 +48,10 @@ get_header();
     </div>
     <div class="form">
         <form action="">
-            <input type="text" id="first-name" name="Fname" placeholder="Your First Name" required>
-            <input type="text" id="last-name" name="Lname" placeholder="Your Last Name" required>
-            <input type="text" id="mobile" name="mobile" placeholder="Your Phone Number">
-            <input type="text" id="country" name="country" placeholder="Your country">
+            <input type="text" id="first-name" name="Fname" placeholder="First Name" required>
+            <input type="text" id="last-name" name="Lname" placeholder="Last Name" required>
+            <input type="text" id="mobile" name="mobile" placeholder="Phone Number">
+            <input type="text" id="country" name="country" placeholder="Country">
             <button type="submit" class="form-button">Request Free Trial</button>
         </form>
     </div>
